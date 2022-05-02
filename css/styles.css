@@ -142,6 +142,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  color: currentColor;
   background-color: var(--background-btn);
   border-style: none;
   cursor: pointer;
