@@ -1,12 +1,17 @@
 :root {
+  /* accent colors */
   --accent-color: #2196f3;
   --white-accent: #fff;
+  --black-accent: #000;
+  --transparent-white: rgba(255, 255, 255, 0.6);
+
+  /* font colors */
   --main-color: #212121;
   --secondary-color: #757575;
-  --black-color: #000;
+  /* background colors */
+  --background-btn: #f5f4fa;
   --button-hover: #188ce8;
   --background-grey: #2f303a;
-  --background-btn: #f5f4fa;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -30,7 +35,7 @@ body {
   color: var(--accent-color);
 }
 .logo-span {
-  color: var(--black-color);
+  color: var(--black-accent);
 }
 .header-item {
   font-weight: 500;
@@ -140,7 +145,7 @@ body {
   color: var(--accent-color);
 }
 .footer-contacts {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--transparent-white);
 }
 
 /* Portfolio */
